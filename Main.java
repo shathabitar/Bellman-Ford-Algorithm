@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		//GraphDijkstra graph = new GraphDijkstra(8);
+		
 		GraphBellmanFord graph = new GraphBellmanFord(8);
 	        graph.addNode(0, new GraphNode("Assignment 1", "01-06-2024", "urgent", "University"));
 	        graph.addNode(1, new GraphNode("Clean", "02-06-2024", "normal", "Personal"));
@@ -39,7 +39,7 @@ public class Main {
 
 
 	        graph.bellmanFord(0);
-	        //graph.dijkstra(0);
+	      
 	}
 
 }
